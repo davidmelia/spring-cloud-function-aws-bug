@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.4.3</version>
+		<version>2.4.4</version>
 	</parent>
 	<groupId>com.melia</groupId>
 	<artifactId>lambda</artifactId>
@@ -15,8 +15,7 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
-		<spring-cloud.version>2020.0.1</spring-cloud.version>
-		<data-loader.version>2.4.3</data-loader.version>
+		<spring-cloud.version>2020.0.1</spring-cloud.version> 
 		<aws-lambda-java-core.version>1.2.1</aws-lambda-java-core.version>
 	</properties>
 	<dependencies>
@@ -25,10 +24,10 @@
 			<artifactId>lombok</artifactId>
 			<scope>provided</scope>
 		</dependency>
-<!-- 		<dependency>
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-bootstrap</artifactId>
-		</dependency> -->
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-function-adapter-aws</artifactId>
@@ -65,7 +64,7 @@
 					<dependency>
 						<groupId>org.springframework.boot</groupId>
 						<artifactId>spring-boot-maven-plugin</artifactId>
-						<version>2.4.3</version>
+						<version>2.4.4</version>
 					</dependency>
 				</dependencies>
 				<configuration>
